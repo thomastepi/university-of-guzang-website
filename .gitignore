@@ -1,0 +1,21 @@
+# Ignore WordPress core files
+/app/public/wp-admin/
+/app/public/wp-includes/
+
+# Ignore WordPress config file
+/app/public/wp-config.php
+
+# Ignore log files and databases
+logs/
+*.log
+*.sql
+*.sqlite
+
+# Ignore any local development environment files
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
